@@ -1,6 +1,10 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     background-color: rgb(77, 0, 128);
+   
+}
+head title{
+  text-transform: uppercase;
 }
 header{
     background-color: rgb(58, 151, 209);
@@ -9,6 +13,7 @@ header{
 header a {
     font-family: cursive;
     color: mediumblue;
+     text-align: center;
 }
 main a{
     border: 2px solid rosybrown;
@@ -16,9 +21,8 @@ main a{
     padding: 2px;
     margin: 15px;
     border-radius: 30px;
-
+     text-align: center;
 }
-
 h1{
     background-color: mediumaquamarine;
     font-family: Verdana;
@@ -26,8 +30,8 @@ h1{
     text-align: center;
 }
 footer{
-    background-color: rgb(224, 148, 6);
-    border: 2px solid rgb(51, 141, 153);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(137, 114, 150);
 }
 footer p{
   border: 3px solid rgb(51, 141, 153)
@@ -44,7 +48,6 @@ nav a{
     text-decoration: none;
     color:mediumslateblue;
 }
-
 .crackers{
 background-color: maroon;
 border-radius: 30px;
@@ -52,12 +55,13 @@ padding: 5px;
     padding-left: 80px;
     color:  CornflowerBlue;
 }
-
 main h2{
 color: mediumslateblue;
-font-size: 40px;
-}
+font-size: 40px; 
+text-align: center;
+background-color: #61c9a3;
 
+}
 .information {
  font-family:  Calibri,  sans-serif ;
  font-size: 20px;
@@ -66,7 +70,6 @@ font-size: 40px;
 .cwik{
    color: CornflowerBlue; 
 }
-
 .contaks{
       border: 5px solid mediumslateblue;
     background-color: khaki;
@@ -83,9 +86,14 @@ font-size: 40px;
     color:  CornflowerBlue;       
   font-size: 20px;    
 }
-
 .we{
       color:  CornflowerBlue;       
   font-size: 20px;    
 }
-
+.up {
+     border: 5px solid mediumslateblue;
+    background-color: khaki;
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 20px;
+}
